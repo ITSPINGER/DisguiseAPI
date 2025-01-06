@@ -22,7 +22,7 @@ import org.bukkit.craftbukkit.v1_21_R2.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
-@PacketHandler(version = "1.23")
+@PacketHandler(version = "1.21.3")
 public class PacketProviderImpl implements PacketProvider {
     private final Plugin plugin;
 
